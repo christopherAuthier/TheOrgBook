@@ -157,7 +157,7 @@ services:
     networks:
       - tob
     ports:
-      - 8082:8080
+      - 9082:8080
     depends_on:
       - tob-db
     command: >
